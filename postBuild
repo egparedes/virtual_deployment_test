@@ -1,4 +1,4 @@
 #!/bin/bash
 # postBuild configuration script for Binder (https://mybinder.org/)
-pip install -r requirements.txt
+pip install ttpy
 pip install -e .
