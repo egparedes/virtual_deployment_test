@@ -8,5 +8,5 @@ dependencies:
 - six
 - cython
 - matplotlib
-- pip:
-  - ttpy
+#- pip:
+#  - ttpy
