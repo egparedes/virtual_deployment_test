@@ -1,7 +1,3 @@
 #!/bin/bash
 # postBuild configuration script for Binder (https://mybinder.org/)
-mkdir $HOME/bin
-export PATH=$HOME/bin:$PATH
-ln -s /usr/bin/gfortran-5 $HOME/bin/gfortran
-pip install ttpy
 pip install -e .
