@@ -1,4 +1,4 @@
-You can also run and interact with the notebook online using Binder or Microsoft Azure Notebooks (a free Azure account is needed).
+Testing:
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/egparedes/virtual_deployment_test.git/master)
 
