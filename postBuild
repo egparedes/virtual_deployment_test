@@ -1,4 +1,5 @@
 #!/bin/bash
-# postBuild configuration script for Binder (https://mybinder.org/)
+
+## postBuild configuration script for Binder (https://mybinder.org/)
 conda install gcc
-pip install ttpy
+#pip install -e .

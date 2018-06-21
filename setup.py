@@ -30,7 +30,7 @@ setup(
         'future',
         'numpy',
         'scipy',
-        'ttpy',
+        'ttpy==HEAD',
         'tabulate'
     ],
     license="LGPL",

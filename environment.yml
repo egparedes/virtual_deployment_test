@@ -1,7 +1,6 @@
 # run: conda env create --file environment.yml
 name: ttrecipes
 dependencies:
-- gcc
 - python>=3.3
 - pip
 - numpy
@@ -9,5 +8,6 @@ dependencies:
 - six
 - cython
 - matplotlib
-#- pip:
-#  - ttpy
+- pip:
+  - git+https://github.com/oseledets/ttpy#egg=ttpy-HEAD
+
