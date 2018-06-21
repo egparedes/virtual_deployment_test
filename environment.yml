@@ -8,6 +8,7 @@ dependencies:
 - six
 - cython
 - matplotlib
+- gcc<5.0  ## Optional
 - pip:
   - git+https://github.com/oseledets/ttpy#egg=ttpy-HEAD
 
