@@ -4,4 +4,3 @@ scipy
 six
 cython
 matplotlib
-git+https://github.com/oseledets/ttpy#egg=ttpy-HEAD
