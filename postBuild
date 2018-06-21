@@ -1,5 +1,4 @@
 #!/bin/bash
 
 ## postBuild configuration script for Binder (https://mybinder.org/)
-conda install gcc
 #pip install -e .
