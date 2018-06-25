@@ -8,6 +8,7 @@
 pip install git+https://github.com/yuvipanda/nbgoogleanalytics.git@36114604ba3f3054bf40c608d7d100ee9857d58c#egg=nbgoogleanalytics
 pip show -f nbgoogleanalytics
 sed -i -e '15,19d;29d' /srv/conda/lib/python3.6/site-packages/nbgoogleanalytics/static/main.js
+cat /srv/conda/lib/python3.6/site-packages/nbgoogleanalytics/static/main.js
 # pip install nbgoogleanalytics
 # jupyter nbextension install --py --sys-prefix nbgoogleanalytics
 # jupyter nbextension enable --py --sys-prefix nbgoogleanalytics
